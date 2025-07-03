@@ -1,0 +1,80 @@
+/* src/styles/ExitPage.css */
+.exit-page {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .exit-page h1 {
+    color: #333;
+  }
+  
+  .exit-page p {
+    color: #777;
+  }
+
+  /* Shared container for all exit pages */
+.exit-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background: url('/images/exit-page-bg.jpg') no-repeat center center; */
+  background-size: cover;
+  padding: 20px;
+}
+
+/* Card-like structure for input and button */
+.exit-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title of each page inside the card */
+.exit-page-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input field inside the card */
+.exit-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.exit-input:focus {
+  border-color: #007bff;
+}
+
+/* Exit button styling */
+.exit-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  background-color: #d5dadf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exit-button:hover {
+  background-color: #0056b3;
+}
