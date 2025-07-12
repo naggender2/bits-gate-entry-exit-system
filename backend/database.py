@@ -11,7 +11,7 @@ import pytz
 from collection_format import Session, User, GateEntry
 
 # MongoDB connection setup
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://shiven:shiven424@cluster0.x0f38.mongodb.net/")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://username:password@cluster0.x0f38.mongodb.net/")
 client = MongoClient(MONGO_URI)
 
 # Database and collection
